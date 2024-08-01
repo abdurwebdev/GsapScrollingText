@@ -1,0 +1,91 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body
+{
+  width: 100%;
+  height: 100px;
+  
+}
+#page1
+{
+  width: 100%;
+  height: 100vh;
+  background-color: #111;
+}
+#page2
+{
+  width: 100%;
+  height: 100vh;
+  background-color: #fff;
+  color: #111;
+  font-family: Whyte;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  gap: 20px;
+}
+#page3
+{
+  width: 100%;
+  height: 100vh;
+  background-color: #111;
+}
+
+.marquee
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  padding: 20px;
+  background-color: #dadada;
+}
+.marquee h1
+{
+  flex-shrink: 0;
+  font-weight: 400;
+}
+.arrow
+{
+  width: 50px;
+  height: 60px;
+}
+.marquee 
+{
+  width: 100%;
+  height: 180px;
+  background-color: #dadada;
+}
+#page2 h1
+{
+  flex-shrink: 0;
+}
+#page2 .hel
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+.arrow {
+  transition: transform 0.5s ease;
+  width: 5vw;
+}
+
+.rotate-180 {
+  transform: rotate(180deg);
+}
+
+.rotate-0 {
+  transform: rotate(0deg);
+}
+.hel h1
+{
+  font-size: 7vw;
+  text-transform: capitalize;
+}
